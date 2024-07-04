@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["trans_res","roteiro"],
+    "template": "\n        Sua funcao e AVALIAR se o dialogo do 'Atendente' segue o 'Roteiro' fornecido. \n        Com base na similaridade, classifique como: 'Seguiu o roteiro', 'Seguiu o roteiro parcialmente' ou 'Nao seguiu o roteiro'.\n        Apenas o dialogo do Atendente deve ser avaliado.\n        Não tem problema se houverem falas adicionais que não estejam no roteiro, pois a conversa pode ser mais longa do que o roteiro. \n        Mas você deve validar se as partes do roteiro estão presentes na conversa.\n        Posteriormente, faça um relatório explicando a sua conclusão. \n        \n        >>> Roteiro: {roteiro}\n        \n        >>> Mensagem: {trans_res}"
+}

@@ -1,0 +1,5 @@
+{
+    "_type": "prompt",
+    "input_variables": ["human_input"],
+    "template": "Sua funcao e AVALIAR a cordialidade do ATENDENTE da mensagem.\n\n>>>MENSAGEM:{human_input}"
+}

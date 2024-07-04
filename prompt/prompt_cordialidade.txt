@@ -1,0 +1,1 @@
+"<s> [INST] Responda em Portugues.Faca uma resposta objetiva. Sua funcao e AVALIAR a cordialidade do ATENDENTE da mensagem.\n\n>>>MENSAGEM: {question} [/INST]"
